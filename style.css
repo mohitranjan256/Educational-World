@@ -1,0 +1,203 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#head{
+    width: 100%;
+    height: 100vh;
+    background-image: url("image/background1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#header {
+    width: 100%;
+    height: 12vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 100px;
+    place-items: center;
+}
+#header nav ul li{
+    display: inline-block;
+    margin-left: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    cursor:grab;
+}
+#header nav ul li :hover{
+    color: wheat;
+    border-bottom: 2px solid wheat;
+    transition: 0.5s;
+}
+
+#header img{
+    height: 15vh;
+}
+#headDesc{
+    width: 100%;
+    height: 88vh;
+    display: flex;
+    place-items: center;
+}
+#headBox{
+    
+    width: 40%;
+    margin-left: 10%;
+    padding: 50px;
+    color: white;
+}
+#headBox h1{
+    margin-bottom: 40px;
+    font-size: 53px;
+}
+#headBox p{
+    margin-bottom: 40px;
+    color: white;
+}
+#topButton{
+    background-color: lightgreen;
+    width: 150px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+}
+#toggle{
+    display: none;
+}
+
+/* About Section */
+#aboutus{
+    width: 100%;
+    height: 100vh;
+    background-image: url("image/background2.jpg"); 
+    background-size: cover;
+}
+#know{
+    margin-left: 100px;
+    padding-top: 200px;
+    padding-bottom: 25px;
+    font-size: 49px;
+}
+#aboutContainer{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    padding: 0px 100px;
+    display: flex;
+    place-items: center;
+}
+#content h1{
+    font-size: 44px;
+    margin-bottom: 50px;
+}
+#content p{
+    font-size: 20px;
+}
+/* Courses */
+#courses{
+    background-image: url("image/background4.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100vh;
+    
+}
+#Detailsaboutcourse{
+    display: flex;
+}
+#target p {
+    font-size: x-large;
+    font-weight: bold;
+}
+#target h1{
+    margin-left: 230px;
+    font-size: x-large;
+}
+#rankers p {
+    font-size: x-large;
+    font-weight: bold;
+}
+#rankers h1{
+    margin-left: 230px;
+    font-size: x-large;
+}
+
+/* Resgistration */
+#registration{
+    width: 100%;
+    height: 100vh;
+    background-image: url("image/background3.jpg"); 
+    display: flex;
+    background-size: cover;
+}
+#why{
+    margin-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    font-size: 49px;
+}
+#aboutregistration{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    padding: 0px 100px;
+    display: flex;
+    place-items: center;
+}
+#desc h1{
+    font-size: 44px;
+    margin-bottom: 50px;
+}
+#desc p{
+    font-size: 20px;
+}
+#form{
+    padding-top: 70px;
+    font-size: xx-large;
+    
+
+}
+#form h1{
+    padding-bottom: 50px;
+}
+#form input{
+    height: 50px;
+    width: 200px;
+    margin: 10px;
+    border-radius: 15px;
+    
+}
+
+#submit{
+    font-weight: bolder;
+    cursor: pointer;
+    background-color: rgb(0, 195, 255);
+    
+
+}
+#contactus{
+    height: 40vh;
+    display: flex;
+    background-color: darkgray;
+    padding: 100px;
+    justify-content: space-between;
+    border: 3px solid black;
+}
+#socialmedia img{
+    height: 30px;
+    
+}
+#aboutdeveloper{
+    height: 15vh;
+    padding: 20px;
+    background-color: darkgray;
+}
+
+
+
+
