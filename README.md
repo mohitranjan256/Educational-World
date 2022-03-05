@@ -1,6 +1,4 @@
 # Educational-World
-This Website Is Already Hosted :
-https://educationworl256.000webhostapp.com
 Warning NOT AVAILABLE FOR MOBILE VIEW
 Website Screen SHOTS
 ![Screenshot (290)](https://user-images.githubusercontent.com/84243917/131370879-aa4456c9-8304-4258-b07d-06ffebb2321a.png)
